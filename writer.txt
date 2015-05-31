@@ -1,0 +1,2 @@
+holleword
+rand = %d4

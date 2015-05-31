@@ -1,4 +1,4 @@
-package ReflectHelper;
+package com.test.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.GenericArrayType;
