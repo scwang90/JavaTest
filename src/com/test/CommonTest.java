@@ -14,8 +14,8 @@ public class CommonTest {
 	
 	@Test
 	public void test() {
-		List<Integer> gg = getList();
-		List<Thread> ss = getList();
+//		List<Integer> gg = getList();
+//		List<Thread> ss = getList();
 		fail("Not yet implemented");
 	}
 
