@@ -51,7 +51,6 @@ public class AfMD5 {
 
 	/**
 	 * 获取单个文件的MD5值！
-	 * 
 	 * @param file
 	 * @return
 	 */
@@ -81,7 +80,6 @@ public class AfMD5 {
 
 	/**
 	 * 获取文件夹中文件的MD5值
-	 * 
 	 * @param file
 	 * @param listChild
 	 *            ;true递归子目录中的文件

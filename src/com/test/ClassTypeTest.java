@@ -47,7 +47,7 @@ public class ClassTypeTest {
 //			}
 		}
 		/**
-		 * @Description: 获取 subobj 相对 父类 supclass 的 第index个泛型参数
+		 * 获取 subobj 相对 父类 supclass 的 第index个泛型参数
 		 * @param subobj 对象 一般用this
 		 * @param supclass 父类 一般用自己的类class
 		 * @param index 要获取参数的序列 一般用0
@@ -82,7 +82,7 @@ public class ClassTypeTest {
 		}
 
 		/**
-		 * @Description: 获取 subobj 相对 父类 supclass 的 第index个泛型参数
+		 * 获取 subobj 相对 父类 supclass 的 第index个泛型参数
 		 * @param subobj 对象 一般用this
 		 * @param supclass 父类 一般用自己的类class
 		 * @param index 要获取参数的序列 一般用0
