@@ -18,7 +18,7 @@ public class StringPrintTest implements Serializable{
 
 	private static final long serialVersionUID = 257400698525953377L;
 	
-//	private String Name = "Ê÷–b90";
+//	private String Name = "æ ‘æœ¾90";
 
 	@Test
 	public void testPrintWriter(){

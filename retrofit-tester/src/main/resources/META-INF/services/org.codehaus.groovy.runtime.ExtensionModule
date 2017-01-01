@@ -1,0 +1,4 @@
+moduleName = Extension
+moduleVersion = 1.0
+extensionClasses = com.groovy.Extension
+staticExtensionClasses =
