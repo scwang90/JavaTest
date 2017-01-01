@@ -2,10 +2,6 @@ package com.common;
 
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.regex.Pattern;
-
-
 /**
  *
  * Created by SCWANG on 2016/11/29.
@@ -32,6 +28,16 @@ public class Base64Tester {
         System.out.println(pw);
     }
 
+    @Test
+    public void decodeBase64() throws Exception {
+        String pw = "OdKSpLKxgRaYGq==";
+        String templete = "ImFBYkJjQ2REZUVmRmdHaEhpSWpKa0tsTG1Nbk5vT3BQcVFyUnNTdFR1VXZWd1d4WHlZelo5ODc2NTQzMjEwI0Ai";
+        System.out.println(encodeBase64(varbase64EncodeChars.getBytes("utf-16")));
+        templete = decodeBase64ToUTF8(templete).substring(1, 65);
+
+        pw = decodeBase64ToUTF8(pw, templete);
+        System.out.println(pw);
+    }
 
     String decodeBase64ToUTF8(String password) throws Exception {
         return new String(decodeBase64(password, varbase64EncodeChars),"utf8");
