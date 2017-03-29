@@ -13,7 +13,7 @@ public class Base64Tester {
 
     @Test
     public void Base64() throws Exception {
-        String pw = "OdKSpLKxgRaYGq==";
+        String pw = "Teeyun2016";
         String templete = "ImFBYkJjQ2REZUVmRmdHaEhpSWpKa0tsTG1Nbk5vT3BQcVFyUnNTdFR1VXZWd1d4WHlZelo5ODc2NTQzMjEwI0Ai";
 
         System.out.println(encodeBase64(varbase64EncodeChars.getBytes("utf-16")));
@@ -30,7 +30,7 @@ public class Base64Tester {
 
     @Test
     public void decodeBase64() throws Exception {
-        String pw = "OdKSpLKxgRaYGq==";
+        String pw = "mlERMBczgZItMq==";
         String templete = "ImFBYkJjQ2REZUVmRmdHaEhpSWpKa0tsTG1Nbk5vT3BQcVFyUnNTdFR1VXZWd1d4WHlZelo5ODc2NTQzMjEwI0Ai";
         System.out.println(encodeBase64(varbase64EncodeChars.getBytes("utf-16")));
         templete = decodeBase64ToUTF8(templete).substring(1, 65);
